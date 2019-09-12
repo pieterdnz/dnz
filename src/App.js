@@ -9,7 +9,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Maqro op {isAndroid && 'Android' }  {isMobile && 'Mobile' }  {isIOS && 'Mobile' } 
+          Maqro ❤ {isAndroid && 'Android' }  {isMobile && 'Mobile' }  {isIOS && 'IOS' } 
         </p>
         <p>
           {isChrome && 'Chrome'}
