@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './download.gif';
+import logo from './cat.gif';
 import makro from './makro-logo.svg';
 import './App.css';
 import {isAndroid,isMobile,isIOS,isChrome} from 'react-device-detect';
