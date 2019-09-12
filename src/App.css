@@ -2,7 +2,7 @@
   text-align: center;
   background: url(hart.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 .App-logo {
