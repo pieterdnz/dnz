@@ -1,14 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './download.gif';
 import './App.css';
+import {isAndroid,isMobile,isIOS} from 'react-device-detect';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" >
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Maqro
+          Maqro on {isAndroid && 'Android' }  {isMobile && 'Mobile' }  {isIOS && 'Mobile' } 
         </p>
         <a
           className="App-link"
