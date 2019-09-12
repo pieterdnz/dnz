@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './download.gif';
+import logo from './cat.gif';
 import './App.css';
 import {isAndroid,isMobile,isIOS,isChrome} from 'react-device-detect';
 
@@ -9,7 +9,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Maqro loves {isAndroid && 'Android' }  {isMobile && 'Mobile' }  {isIOS && 'IOS' } 
+          Maqro op {isAndroid && 'Android' }  {isMobile && 'Mobile' }  {isIOS && 'Mobile' } 
         </p>
         <p>
           {isChrome && 'Chrome'}
@@ -20,7 +20,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-         Bij makrokerstpakketten shop je voor valentijn gifts
+         Ook voor valentijn shop je bij makrokerstpakketten!
         </a>
       </header>
     </div>
