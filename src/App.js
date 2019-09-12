@@ -1,11 +1,13 @@
 import React from 'react';
-import logo from './cat.gif';
+import logo from './download.gif';
+import makro from './makro-logo.svg';
 import './App.css';
 import {isAndroid,isMobile,isIOS,isChrome} from 'react-device-detect';
 
 function App() {
   return (
     <div className="App" >
+      <div  className="makro"><img alt="makro" src={makro}/></div>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -20,7 +22,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-         Ook voor valentijn shop je bij makrokerstpakketten!
+         Ook voor valentijn shop je bij makro kerstpakketten!
         </a>
       </header>
     </div>
