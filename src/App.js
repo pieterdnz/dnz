@@ -1,6 +1,6 @@
 import React from 'react';
-//import logo from './download.gif';
-//import makro from './makro-logo.svg';
+import logo from './cat.gif';
+import makro from './makro-logo.svg';
 import './App.css';
 import {isAndroid,isMobile,isIOS,isChrome, isIE,BrowserView} from 'react-device-detect';
 
