@@ -1,6 +1,7 @@
 .App {
   text-align: center;
-  background: url(hart.jpg);
+  __background: url(hart.jpg);
+  background: peru;
   background-repeat: no-repeat;
   background-size: cover;
 }
